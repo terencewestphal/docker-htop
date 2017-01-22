@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/terencewestphal/docker-htop.svg?branch=master)](https://travis-ci.org/terencewestphal/docker-htop)  
-  
+
 # [![HTOP](https://raw.githubusercontent.com/terencewestphal/docker-htop/master/logo.png)](http://hisham.hm/htop/)
   
 htop - an interactive process viewer for Unix
@@ -7,7 +7,7 @@ htop - an interactive process viewer for Unix
 ### Pull  
   
 ```
-docker pull terencewestphal/docker-htop
+docker pull terencewestphal/htop
 ```
   
 ### Build  
