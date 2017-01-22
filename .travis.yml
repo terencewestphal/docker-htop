@@ -1,0 +1,9 @@
+services:
+  - docker
+
+install:
+  - docker build -t htop .
+  - docker run -it --rm --pid=host htop
+
+script:
+  - docker ps | grep -q htop
