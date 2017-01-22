@@ -4,22 +4,30 @@
 
 htop - an interactive process viewer for Unix
 
-## Pull
+### Pull
 
 ```
 docker pull terencewestphal/docker-htop
 ```
 
-## Usage
+### Build 
 
-### Run htop inside a container
-
-```
-docker run -it --rm --pid=host terencewestphal/docker-htop
-```
-
-### Joining another container’s pid namespace can be used for debugging that container.
+**Build the Dockerfile and tag the image:**
 
 ```
-docker run -it --rm --pid=container:my-container terencewestphal/docker-htop
+docker build -t htop .
+```
+
+### Usage
+
+**Run htop inside a container:**
+
+```
+docker run -it --rm --pid=host htop
+```
+
+**Join another container’s pid namespace:**
+
+```
+docker run -it --rm --pid=container:my-container htop
 ```
