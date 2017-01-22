@@ -1,6 +1,6 @@
 # Docker HTOP
 
-[![HTOP](logo.png)](http://hisham.hm/htop/)
+[![HTOP](https://raw.githubusercontent.com/terencewestphal/docker-htop/master/logo.png)](http://hisham.hm/htop/)
 
 htop - an interactive process viewer for Unix
 
