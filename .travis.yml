@@ -3,7 +3,7 @@ services:
 
 install:
   - docker build -t htop .
-  - docker run -it --rm --pid=host htop
+  - docker run -d --pid=host htop
 
 script:
   - docker ps | grep -q htop
