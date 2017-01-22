@@ -6,4 +6,4 @@ install:
   - docker run -d --pid=host htop
 
 script:
-  - docker ps | grep -q htop
+  - docker ps -a | grep -q htop
